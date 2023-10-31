@@ -1,0 +1,197 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color:gray;
+    color: white;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: gray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+}
+/* #about{
+    background-color: #f0f0f0;
+} */
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: white; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: white;
+}
+
+h2 {
+    color:red;
+}
+/* #projects{
+    background-color: #f0f0f0;
+} */
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: gray;
+    color: white;
+    font-size: 0.9rem;
+}
+/* .image{
+    display: block; 
+    margin: 0 auto; 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    border: 3px solid #3498db; 
+} */
+header {
+    display: flex; 
+    align-items: center; 
+    color: white;
+    padding: 20px;
+}
+
+.header-image {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid white; 
+    margin-right: 20px;
+}
+.header-text {
+    text-align: center; 
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px; 
+}
+p {
+    font-size: 1.25rem;
+}
+#Download{
+    text-align: center;
+    padding: 20px;
+    /* background-color: #f0f0f0; */
+}
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.download-button:hover {
+    background-color: #005c8e;
+}
+#contact {
+    /* background-color:#f0f0f0; */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 1.25rem;
+}
+
+#contact a {
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.bg-img img{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+#skills {
+        padding: 20px;
+        /* background-color: #f0f0f0; */
+    }
+    #skills h2 {
+        text-align: center;
+    }
+    #skills ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    #skills li {
+        font-size: 18px;
+        margin: 10px 0;
+        color: white;
+    }
+    body {
+        background-image: url('./image/bc-img.avif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+    }
+    @media screen and (max-width: 768px) {
+        body {
+            background-image:100px; 
+        }
+
+        #Download, #skills {
+            padding: 10px;
+        }
+
+        #skills ul, #Download ul {
+            text-align: left;
+            margin-left: 10px;
+        }
+    }
+.fixed a img{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+}
